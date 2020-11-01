@@ -1,8 +1,6 @@
 puts "Hello world!"
-my_num = 11
 my_boolean = true 
 my_string = "Ruby"
-puts my_num
 puts my_boolean
 puts my_string
 #maths
@@ -27,7 +25,13 @@ Then What's up?That's a lot of numbers (text in 1 line)
 puts "What's the length of this string? - 'it's in the numbers 11'"
 puts "it's in the numbers 11".length
 puts "it's in the numbers 11".reverse
-puts "hello".downcase
-puts "hello".upcase
+puts "hello".downcase 
+puts "hello".upcase #makes all letters capital 
 name = "Wh".downcase.reverse.upcase #methods
 puts name
+#first_name = gets.chomp #gets=input chomp removes blank lines after gets
+puts "The first number is #{my_num}" # #{} replaces variable with it's value
+hello = "hello".capitalize #makes 1 letter capital
+puts hello
+#answer = gets.chomp.capitalize ! modifies the value of a variable then hello.capitalize! = Hello
+
